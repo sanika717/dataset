@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+*.db
+output/screenshots/*.png
+output/reports/*.json
+models/*.pt
+models/*.yaml

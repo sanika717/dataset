@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* Referenced as `className="card"` throughout every page/component
+     built in this project — a plain white panel with a light border. */
+  .card {
+    @apply bg-white border border-gray-200 rounded-xl;
+  }
+}
+
+body {
+  @apply text-gray-900;
+}
